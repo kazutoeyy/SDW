@@ -1,0 +1,23 @@
+{
+  "name": "six-degrees-of-wikipedia",
+  "private": true,
+  "workspaces": [
+    "apps/*",
+    "packages/*"
+  ],
+  "scripts": {
+    "dev": "turbo run dev",
+    "build": "turbo run build",
+    "lint": "turbo run lint",
+    "format": "prettier --write \"**/*.{ts,tsx,js,jsx,json,md,css}\"",
+    "format:check": "prettier --check \"**/*.{ts,tsx,js,jsx,json,md,css}\""
+  },
+  "devDependencies": {
+    "prettier": "^3.5.3",
+    "turbo": "^2.4.4"
+  },
+  "engines": {
+    "node": ">=20.0.0"
+  },
+  "packageManager": "npm@11.8.0"
+}
