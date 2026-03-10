@@ -50,3 +50,7 @@
 - Mỗi thao tác setup phải đi kèm câu lệnh chạy (run/build command), câu lệnh kiểm tra (test), và một số commit message cơ bản gợi ý cho Git.
 - Nhớ phải đưa báo cáo tiến độ và checklist sau khi hoàn tất cụm tính năng của một tuần.
 - Bắt buộc tham chiếu Project Context này trước mỗi lần AI (Agent) generate logic code để đảm bảo đi đúng lộ trình hệ thống từ lúc khởi tạo.
+
+## 6. Tiến độ Hiện tại (Current Progress)
+- **Phase-01 Day 1 (Hoàn tất)**: Khởi tạo thành công Turborepo monorepo skeleton. Thiết lập Next.js 15 (App Router) với mô hình **Modular Monolith** chứa 6 modules (`search`, `pathfinding`, `wiki-proxy`, `cache`, `user`, `graph-viz`) và các shared packages (`@repo/tsconfig`, `@repo/eslint-config`, `@repo/shared`). Tích hợp thành công TypeScript dạng chuẩn, TailwindCSS v4, ESLint, Prettier và Git init. Tương ứng hoàn thành **Ngày 1** trong Master Execution Plan.
+- **Phase-02 Day 2 (Hoàn tất)**: Tạo script `database/01_init_db.sql` kết nối SQL Server 2019 định nghĩa cấu trúc bảng Graph Node/Edge chuẩn. Thiết lập Singleton Connection Instance cho `mssql` và `ioredis` bên trong `apps/web/src/lib/`. Tích hợp hoàn hảo theo dạng Modular Monolith. Đã hoàn thiện **Ngày 2** trong lộ trình Master.

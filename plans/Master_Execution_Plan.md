@@ -5,11 +5,11 @@ Project Roadmap được thiết kế theo 4 tuần. Mọi code và structure tu
 ## TUẦN 1: Hạ tầng, Cấu trúc Dữ liệu & Core Modules
 **Mục tiêu:** Hệ thống thiết lập thành công nhánh Frontend, các module Backend cốt lõi, cơ sở dữ liệu và thư viện Proxy gọi đến Wikipedia.
 
-- [ ] **Ngày 1: Khởi tạo Vùng chứa (Monorepo & Framework)**
+- [x] **Ngày 1: Khởi tạo Vùng chứa (Monorepo & Framework)**
   - Setup Turborepo skeleton (tạo các workspace `apps/web` và `packages`).
   - Khởi tạo Next.js 15 (App Router) với TypeScript, TailwindCSS, ESLint, Prettier.
   - Thiết lập Git convention và GitHub Actions.
-- [ ] **Ngày 2: Database Layer & SQL 2019 Graph Init**
+- [x] **Ngày 2: Database Layer & SQL 2019 Graph Init**
   - Viết file script `01_init_db.sql` kết nối SQL Server 2019.
   - Tạo Schema hệ thống và kích hoạt đặc tính SQL Graph.
   - Tạo các bảng lưu Graph Path Cached, bảng tài khoản và lịch sử (Users, History, Heatmap).
