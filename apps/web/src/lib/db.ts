@@ -3,7 +3,7 @@ import sql from 'mssql';
 // Cau hinh connection string, uu tien doc tu ENV
 const sqlConfig: sql.config = {
     user: process.env.DB_USER || 'sa',
-    password: process.env.DB_PASSWORD || 'YourPassword',
+    password: process.env.DB_PASSWORD || '12345',
     database: process.env.DB_NAME || 'SixDegreesWiki',
     server: process.env.DB_SERVER || 'localhost',
     pool: {

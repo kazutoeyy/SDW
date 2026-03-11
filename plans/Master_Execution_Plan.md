@@ -13,14 +13,14 @@ Project Roadmap được thiết kế theo 4 tuần. Mọi code và structure tu
   - Viết file script `01_init_db.sql` kết nối SQL Server 2019.
   - Tạo Schema hệ thống và kích hoạt đặc tính SQL Graph.
   - Tạo các bảng lưu Graph Path Cached, bảng tài khoản và lịch sử (Users, History, Heatmap).
-- [ ] **Ngày 3: Authentication & Cấu trúc User Module**
+- [x] **Ngày 3: Authentication & Cấu trúc User Module**
   - Tích hợp NextAuth.js v5 trực tiếp trên Next.js (chạy chức năng Gateway auth).
   - Cấu hình OAuth providers (GitHub, Google).
-- [ ] **Ngày 4: Thư viện Proxy & Caching Layer (Wiki Proxy)**
+- [x] **Ngày 4: Thư viện Proxy & Caching Layer (Wiki Proxy)**
   - Tích hợp package `ioredis` và nối tới Azure Cache for Redis (hoặc Redis container local).
   - Xây dựng `Wiki Proxy Module`: thiết kế class gọi sang MediaWiki API.
   - Triển khai Rate Limiting và Exponential Backoff để chống block IP từ server của Wikipedia.
-- [ ] **Ngày 5: Review Core Layers & Unit Test cơ bản**
+- [x] **Ngày 5: Review Core Layers & Unit Test cơ bản**
   - Test tương tác dữ liệu với SQL 2019 Graph.
   - Tích hợp logic lưu tạm (cache) raw web responses cho Wiki Proxy.
 
