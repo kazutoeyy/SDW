@@ -44,6 +44,7 @@ next-env.d.ts
 # Internal docs (khong can thiet khi clone project)
 plans/
 docs/specs/
+database/
 
 # Agent config (copilot skill, khong lien quan den runtime)
 .agent/
